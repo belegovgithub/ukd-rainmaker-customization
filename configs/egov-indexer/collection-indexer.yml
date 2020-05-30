@@ -30,7 +30,7 @@ ServiceMaps:
         - path: http://egov-mdms-service:8080/egov-mdms-service/v1/_search
           moduleName: tenant
           masterName: tenants
-          tenantId: pb
+          tenantId: cb
           filter: "[?(@.code == $tenant)]"
           filterMapping:
           - variable: $tenant
@@ -77,7 +77,7 @@ ServiceMaps:
         - path: http://egov-mdms-service:8080/egov-mdms-service/v1/_search
           moduleName: tenant
           masterName: tenants
-          tenantId: pb
+          tenantId: cb
           filter: "[?(@.code == $tenant)]"
           filterMapping:
           - variable: $tenant
